@@ -5,6 +5,7 @@ def average(array):
     average = sum(array) / len(array)
     return average
 
+
 if __name__ == '__main__':
     n = int(input())
     arr = list(map(int, input().split()))

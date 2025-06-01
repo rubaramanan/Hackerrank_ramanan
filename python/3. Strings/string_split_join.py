@@ -3,6 +3,7 @@ def split_and_join(line):
     strs = line.split(" ")
     return '-'.join(strs)
 
+
 if __name__ == '__main__':
     line = input()
     result = split_and_join(line)

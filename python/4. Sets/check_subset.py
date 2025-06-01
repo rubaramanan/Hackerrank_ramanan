@@ -2,11 +2,12 @@ def check_subset(a, b):
     # method 1
     # return a.issubset(b)
 
-    #method2
+    # method2
     # return a<=b
 
-    #method3
+    # method3
     return all(i in b for i in a)
+
 
 t = int(input())
 for i in range(t):
@@ -14,5 +15,5 @@ for i in range(t):
     a = set(map(int, input().split()))
     b_l = int(input())
     b = set(map(int, input().split()))
-    
-    print(check_subset(a,b))
+
+    print(check_subset(a, b))

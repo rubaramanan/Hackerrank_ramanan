@@ -3,8 +3,7 @@ k = int(input())
 rooms = list(map(int, input().split()))
 room_no = set(rooms)
 
-
-s = sum(room_no)*k
+s = sum(room_no) * k
 a = sum(rooms)
-c = (s - a) // (k-1)
+c = (s - a) // (k - 1)
 print(c)
